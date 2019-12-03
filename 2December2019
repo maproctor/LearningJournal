@@ -1,3 +1,6 @@
 Used Docker to load SQLSERVER
 Used VS Code to connect to new sqlserver/docker
 Want to load wideworldimporters tomorrow
+
+Found a nasty delay ~20 seconds for many docker commands, maybe related to ip4 and ip6.
+Possibly resolved by modifying network settings, but I don't want to do that just for a docker
